@@ -3,12 +3,16 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Common/Navbar';
 import Footer from './components/Common/Footer';
 
+// Pages - Khosy
 import Home from './pages/Home';
 import Layanan from './pages/Layanan';
 
-const FormSkrining = () => <div className="p-16 text-center text-slate-500">Halaman Form Skrining (Garapan Azka)</div>;
-const RiwayatKesehatan = () => <div className="p-16 text-center text-slate-500">Halaman Riwayat & Sertifikat (Garapan Rayhan)</div>;
-const KontakFAQ = () => <div className="p-16 text-center text-slate-500">Halaman Pusat Bantuan & FAQ (Garapan Rayhan)</div>;
+// Pages - Azka 
+const FormSkrining = () => <div className="p-16 text-center text-slate-500 font-medium">Halaman Form Skrining Mandiri (Garapan Azka)</div>;
+
+// Pages - Rayhan 
+import RiwayatKesehatan from './pages/RiwayatKesehatan';
+import KontakFAQ from './pages/KontakFAQ';
 
 export default function App() {
   return (
@@ -17,9 +21,14 @@ export default function App() {
         <Navbar />
         <main className="flex-grow">
           <Routes>
+            {/* Rute Khosy */}
             <Route path="/" element={<Home />} />
             <Route path="/layanan" element={<Layanan />} />
+            
+            {/* Rute Azka */}
             <Route path="/skrining" element={<FormSkrining />} />
+            
+            {/* Rute Rayhan */}
             <Route path="/riwayat" element={<RiwayatKesehatan />} />
             <Route path="/kontak" element={<KontakFAQ />} />
           </Routes>
