@@ -1,0 +1,37 @@
+[
+    {
+        "id": "POS-01",
+        "name": "Pos Utama Pelabuhan Tanjung Intan",
+        "address": "Jl. Pelabuhan No. 1, Cilacap Selatan",
+        "quota": 15,
+        "availableSlots": [
+            "08:00 - 10:00 WIB",
+            "10:00 - 12:00 WIB",
+            "13:00 - 15:00 WIB"
+        ],
+        "doctor": "dr. Ahmad Fauzi, Sp.P"
+    },
+    {
+        "id": "POS-02",
+        "name": "Pos Dermaga Wijayapura",
+        "address": "Area Dermaga Penyeberangan Wijayapura",
+        "quota": 8,
+        "availableSlots": [
+            "09:00 - 11:00 WIB",
+            "13:00 - 14:30 WIB"
+        ],
+        "doctor": "dr. Siti Rahmawati"
+    },
+    {
+        "id": "POS-03",
+        "name": "Pos Pelabuhan Perikanan Samudera (PPS)",
+        "address": "Kawasan Industri PPS Cilacap",
+        "quota": 20,
+        "availableSlots": [
+            "08:30 - 10:30 WIB",
+            "11:00 - 12:30 WIB",
+            "14:00 - 16:00 WIB"
+        ],
+        "doctor": "dr. Budi Santoso"
+    }
+]
