@@ -26,7 +26,7 @@ Proyek ini dibuat untuk memenuhi **Tugas Besar I (UTS) Mata Kuliah Perancangan d
 | Nama Anggota | NIM | Branch Git | Responsibilitas & Garapan Halaman |
 | :--- | :--- | :--- | :--- |
 | **Khosy AlBuchary** *(Lead)* | 103122400030 | `feature/home-portal` | **1. Beranda (`/`)** — Hero section, Live Stat Counter Widget, Alur Skrining.<br>**2. Katalog Layanan (`/layanan`)** — Live search bar, category filter pills, responsive grid cards, pagination.<br>*Setup core architecture, layout global (Navbar/Footer), & routing.* |
-| **Azka** | 103122400006 | `feature/skrining-form` | **3. Form Skrining Mandiri (`/skrining`)** — Form interaktif multi-step, client-side validation (NIK/Paspor/Email).<br>**4. Reservasi & Jadwal (`/jadwal/:id`)** — Pemilihan slot lokasi/pos laboratorium BKK Cilacap. |
+| **Azka** | - | `feature/skrining-form` | **3. Form Skrining Mandiri (`/skrining`)** — Form interaktif multi-step, client-side validation (NIK/Paspor/Email).<br>**4. Reservasi & Jadwal (`/jadwal/:id`)** — Pemilihan slot lokasi/pos laboratorium BKK Cilacap. |
 | **Raihan Dhimas S.N** | 103122400012 | `feature/hasil-monitoring` | **5. Riwayat & Sertifikat (`/riwayat`)** — Status Clearance Badge & Modal QR Code E-Sertifikat Karantina.<br>**6. Pusat Bantuan & FAQ (`/kontak`)** — Accessible Accordion FAQ & Form pengaduan interaktif. |
 
 ---
