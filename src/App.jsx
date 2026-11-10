@@ -6,6 +6,9 @@ import Footer from './components/Common/Footer';
 import Home from './pages/Home';
 import Layanan from './pages/Layanan';
 
+import FormSkrining from './pages/FormSkrining';
+import DetailJadwal from './pages/DetailJadwal';
+
 const FormSkrining = () => <div className="p-16 text-center text-slate-500">Halaman Form Skrining (Garapan Azka)</div>;
 const RiwayatKesehatan = () => <div className="p-16 text-center text-slate-500">Halaman Riwayat & Sertifikat (Garapan Rayhan)</div>;
 const KontakFAQ = () => <div className="p-16 text-center text-slate-500">Halaman Pusat Bantuan & FAQ (Garapan Rayhan)</div>;
