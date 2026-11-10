@@ -1,0 +1,24 @@
+[
+  {
+    "id": "REC-2026-001",
+    "nik": "3302123456789001",
+    "name": "Rayhan Dhimas",
+    "category": "Skrining Aktif TB Paru",
+    "date": "2026-10-12",
+    "location": "Pos Pelabuhan Tanjung Intan Cilacap",
+    "status": "Clearance Negatif (Sehat)",
+    "certificateCode": "BKK-CILACAP-TB-88921",
+    "notes": "Paru bersih, tidak ditemukan gejala klinis mencurigakan."
+  },
+  {
+    "id": "REC-2026-002",
+    "nik": "3302123456789001",
+    "name": "Rayhan Dhimas",
+    "category": "Konseling & Tes VCT HIV",
+    "date": "2026-06-15",
+    "location": "Laboratorium Utama BKK Cilacap",
+    "status": "Non-Reaktif (Aman)",
+    "certificateCode": "BKK-CILACAP-HIV-44210",
+    "notes": "Hasil uji rapid test non-reaktif. Konseling pasca-tes selesai."
+  }
+]
