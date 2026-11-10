@@ -3,14 +3,15 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Common/Navbar';
 import Footer from './components/Common/Footer';
 
-// Pages - Khosy
+// Halaman Khosy
 import Home from './pages/Home';
 import Layanan from './pages/Layanan';
 
-// Pages - Azka 
-const FormSkrining = () => <div className="p-16 text-center text-slate-500 font-medium">Halaman Form Skrining Mandiri (Garapan Azka)</div>;
+// Halaman Azka
+import FormSkrining from './pages/FormSkrining';
+import DetailJadwal from './pages/DetailJadwal';
 
-// Pages - Rayhan 
+// Halaman Rayhan
 import RiwayatKesehatan from './pages/RiwayatKesehatan';
 import KontakFAQ from './pages/KontakFAQ';
 
@@ -24,10 +25,11 @@ export default function App() {
             {/* Rute Khosy */}
             <Route path="/" element={<Home />} />
             <Route path="/layanan" element={<Layanan />} />
-            
+
             {/* Rute Azka */}
             <Route path="/skrining" element={<FormSkrining />} />
-            
+            <Route path="/jadwal/:id" element={<DetailJadwal />} />
+
             {/* Rute Rayhan */}
             <Route path="/riwayat" element={<RiwayatKesehatan />} />
             <Route path="/kontak" element={<KontakFAQ />} />
